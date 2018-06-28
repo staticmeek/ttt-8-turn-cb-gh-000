@@ -7,6 +7,7 @@ puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
 def turn(board)
+<<<<<<< HEAD
   puts "Please enter 1-9:"
   index = gets.strip
   index = input_to_index(index)
@@ -15,6 +16,11 @@ def turn(board)
   else
     turn(board)
   end
+=======
+  puts "Please enter a number 1-9"
+  user_input = gets.strip
+  user_input = input_to_index(user_input)
+>>>>>>> cc6defc88d63d5ffc9f9636769a549f324fe1541
 end
 
 def input_to_index(user_input)
